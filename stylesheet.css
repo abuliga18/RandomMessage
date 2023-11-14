@@ -1,0 +1,41 @@
+* {
+    background-image: url(pexels-philippe-donn-1257860.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+   
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+
+.msg_btn {
+    margin-top: 20px;
+    height: 3rem;
+    width: 50%;
+    color: white;
+    border: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;  
+}
+
+#messageDisplay {
+    color: white;
+    width: 100%;
+    margin: -300px auto;
+    
+    
+    
+}
+
+#messageDisplay p {
+    font-size: 1.5rem;
+    text-align: center;
+}
